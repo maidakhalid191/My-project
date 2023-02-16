@@ -1,0 +1,2258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a1fea5933b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="Project_1.css">
+    <title>Capstone Project</title>
+
+</head>
+
+<body>
+    <header class="navbar-light   ">
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-togglable bg-light  text-dark">
+            <a class="navbar-brand d-lg-none ms-lg-0 ">
+                <img class="" src="https://eduport.webestica.com/assets/images/logo.svg" alt="logo"
+                    style="width: 120px;">
+
+            </a>
+
+            <div class="d-lg-none" style="margin-left: 180px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+
+
+
+
+            <a class=" navbar-brand d-lg-none ">
+                <div class=" navbar-brand d-lg-none ">
+
+                    <div class="dropdown ms-1 ">
+                        <a class="avatar avatar-sm p-0" href="#" id="profileDropdown" data-bs-toggle="dropdown">
+                            <img class="avatar-img rounded-circle" src="avatar.jpg" style="height: 50px;" alt="avatar">
+                        </a>
+                        <ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3">
+
+
+
+                            <li class="px-3 mb-3">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="avatar me-3">
+                                        <img class="avatar-img rounded-circle shadow" style="height: 50px;"
+                                            src="avatar.jpg" alt="avatar">
+
+                                    </div>
+                                    <div>
+                                        <a class="h6" href="#">Lori Ferguson</a>
+                                        <p class="small m-0">example@gmail.com</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <hr>
+                            </li>
+
+                            <li><a class="dropdown-item" href="#">Edit
+                                    Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Account
+                                    Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Help</a></li>
+                            <li><a class="dropdown-item " href="#">Sign Out</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </a>
+
+
+
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+
+                <ul class="navbar-nav ms-lg-5 mt-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link " href="">
+                            <img class="d-none d-lg-flex" src="https://eduport.webestica.com/assets/images/logo.svg"
+                                alt="logo" style="width: 160px;">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown ps-lg-2">
+                            <a class="btn btn-light text-primary category dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="background-color: #C0DEFF; width: 100%;"> Category </a>
+
+
+                            <ul class="dropdown-menu" aria-labelledby="demoMenu">
+                                <li> <a class="dropdown-item active" href="">Development</a></li>
+                                <li> <a class="dropdown-item" href="">Design</a></li>
+                                <li> <a class="dropdown-item" href="">Marketing</a></li>
+                                <li> <a class="dropdown-item" href="">Music</a></li>
+                                <li> <a class="dropdown-item" href="">Life Style</a></li>
+                                <li> <a class="dropdown-item" href="">IT &Software</a></li>
+                                <li> <a class="dropdown-item" href="">Personal Development</a></li>
+                                <li> <a class="dropdown-item" href="">Health & fitness</a></li>
+                                <li> <a class="dropdown-item" href="">Teaching</a>
+
+                                <li> <a class="dropdown-item" href="">Social science</a></li>
+                                <li> <a class="dropdown-item" href="">Math <span
+                                            class="badge bg-success ms-2 smaller">New</span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ps-5 pe-5" style="margin-left: 150px;">
+
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="demoMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Demos</a>
+                        <ul class="dropdown-menu" aria-labelledby="demoMenu">
+                            <li> <a class="dropdown-item " href="">Home Default</a></li>
+                            <li> <a class="dropdown-item" href="">Home Education</a></li>
+                            <li> <a class="dropdown-item" href="">Home Academy</a></li>
+                            <li> <a class="dropdown-item" href="">Home Course</a></li>
+                            <li> <a class="dropdown-item" href="">Home University</a></li>
+                            <li> <a class="dropdown-item" href="">Home Kindergarten</a></li>
+                            <li> <a class="dropdown-item" href="">Home Landing</a></li>
+                            <li> <a class="dropdown-item" href="">Home Tutor</a></li>
+                            <li> <a class="dropdown-item" href="">Home School</a>
+                            <li>
+                            <li> <a class="dropdown-item" href="">Home Abroad</a></li>
+                            <li> <a class="dropdown-item" href="">Home Workshop<span
+                                        class="badge bg-success ms-2 smaller">New</span></a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="demoMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu" aria-labelledby="demoMenu">
+                            <li> <a class="dropdown-item " href="">Course</a></li>
+                            <li> <a class="dropdown-item" href="">About</a></li>
+                            <li> <a class="dropdown-item" href="">Hero Banner</a></li>
+                            <li> <a class="dropdown-item" href="">Instructer list</a></li>
+                            <li> <a class="dropdown-item" href="">Instructer Single</a></li>
+                            <li> <a class="dropdown-item" href="">Become an instructer</a></li>
+                            <li> <a class="dropdown-item" href="">Form</a></li>
+                            <li> <a class="dropdown-item" href="">FAQs</a></li>
+                            <li> <a class="dropdown-item" href="">Error 404</a>
+                            <li>
+                            <li> <a class="dropdown-item" href="">Coming soon</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="demoMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Accounts</a>
+                        <ul class="dropdown-menu" aria-labelledby="demoMenu">
+                            <li><a class="dropdown-item " href="#"><i
+                                        class="fas fa-user-tie fa-fw me-1"></i>Instructor</a></li>
+                            <li> <a class="dropdown-item " href="#"><i
+                                        class="fas fa-user-graduate fa-fw me-1"></i>Student</a></li>
+                            <li> <a class="dropdown-item" href=""><i class="fas fa-user-cog fa-fw me-1"></i>Admin</a>
+                            </li>
+                            <li> <a class="dropdown-item" href=""><i class="fas fa-user-cog fa-fw me-1"></i>Admin</a>
+                            </li>
+                            <li>
+                                <hr class="">
+                            </li>
+                            <li> <a class="dropdown-item" href=""><i class="fas fa-fw fa-edit me-1"></i>Edit Profile</a>
+                            </li>
+                            <li> <a class="dropdown-item" href=""><i class="fas fa-fw fa-cog me-1"></i>Settings</a>
+                            </li>
+                            <li> <a class="dropdown-item" href=""><i class="fas fa-fw fa-trash-alt me-1"></i>Delete
+                                    Profile</a> </li>
+                        </ul>
+                    </li>
+
+                    </li>
+
+
+
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="demoMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Mega Menu</a>
+                        <ul class="dropdown-menu" aria-labelledby="demoMenu">
+                            <li> <a class="dropdown-item " href="">Home Default</a></li>
+                            <li> <a class="dropdown-item" href="">Home Education</a></li>
+                            <li> <a class="dropdown-item" href="">Home Academy</a></li>
+                            <li> <a class="dropdown-item" href="">Home Course</a></li>
+                            <li> <a class="dropdown-item" href="">Home University</a></li>
+                            <li> <a class="dropdown-item" href="">Home Kindergarten</a></li>
+                            <li> <a class="dropdown-item" href="">Home Landing</a></li>
+                            <li> <a class="dropdown-item" href="">Home Tutor</a></li>
+                            <li> <a class="dropdown-item" href="">Home School</a>
+                            <li>
+                            <li> <a class="dropdown-item" href="">Home Abroad</a></li>
+                            <li> <a class="dropdown-item" href="">Home Workshop<span
+                                        class="badge bg-success ms-2 smaller">New</span></a></li>
+                        </ul>
+                    </li>
+
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav ps-5" style="margin-left: 150px;">
+                    <li class="nav-item">
+                        <div class="input-group">
+                            <div class="form-outline">
+                                <input id="search-input" type="search" id="form1" class="form-control">
+
+                            </div>
+
+                        </div>
+                    </li>
+
+
+                    <div class="dropdown ms-1 ">
+                        <a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button"
+                            data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img class="avatar-img rounded-circle" src="avatar.jpg" style="height: 50px;" alt="avatar">
+                        </a>
+                        <ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3"
+                            aria-labelledby="profileDropdown">
+
+
+
+                            <li class="px-3 mb-3">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="avatar me-3">
+                                        <img class="avatar-img rounded-circle shadow" style="height: 50px;"
+                                            src="avatar.jpg" alt="avatar">
+                                    </div>
+                                    <div>
+                                        <a class="h6" href="#">Lori Ferguson</a>
+                                        <p class="small m-0">example@gmail.com</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <hr>
+                            </li>
+
+                            <li><a class="dropdown-item" href="#">Edit
+                                    Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Account
+                                    Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Help</a></li>
+                            <li><a class="dropdown-item " href="#">Sign Out</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+
+
+
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+
+
+
+    <section class="first-section d-lg-flex d-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 ">
+
+                    <h1 style="font-weight: bolder; padding-top: 150px;">Limitless learning at your fingertips</h1>
+                    <p class="pt-5">Online learning and teaching marketplace with 5K+ courses & 10M students. Taught by
+                        experts
+                        to help you acquire new skills.</p>
+
+
+                    <ul class="list-inline position-relative justify-content-center  mb-4">
+                        <li class="list-inline-item me-2"> <i class="fa-solid fa-check "></i>Learn with experts</li>
+                        <li class="list-inline-item me-2"> <i class="fa-solid fa-check "></i>Get certificate</li>
+                        <li class="list-inline-item"> <i class="fa-solid fa-check "></i>Get membership</li>
+                    </ul>
+
+                    <div class="d-sm-flex align-items-center justify-content-center justify-content-lg-start">
+
+                        <a href="#" class="btn btn-lg btn-danger me-2 mb-4 mb-sm-0">Get Started</a>
+
+                        <div>
+
+                            <button type="button" class="btn btn-light btn-lg">
+                                <i class="fa-solid fa-circle-play"></i>Watch Video</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 ">
+
+                    <img class="mainpic " src="mainpic.png" alt="" style=" height: 600px;
+                    width: 720px;">
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <section class="first-section  d-lg-none d-flex">
+        <div class="container ">
+
+            <div class="     text-center">
+
+                <h1 style="font-weight: bolder; padding-top: 150px;">Limitless learning at your fingertips</h1>
+                <p class="pt-5">Online learning and teaching marketplace with 5K+ courses & 10M students. Taught by
+                    experts
+                    to help you acquire new skills.</p>
+
+
+                <ul class="list-inline position-relative justify-content-center  mb-4">
+                    <li class="list-inline-item me-2"> <i class="fa-solid fa-check "></i>Learn with experts</li>
+                    <li class="list-inline-item me-2"> <i class="fa-solid fa-check "></i>Get certificate</li>
+                    <li class="list-inline-item"> <i class="fa-solid fa-check "></i>Get membership</li>
+                </ul>
+
+                <div class="d-sm-flex align-items-center justify-content-center justify-content-lg-start">
+
+                    <a href="#" class="btn btn-lg btn-danger me-2 mb-4 ">Get Started</a>
+
+                    <div>
+
+                        <button type="button" class="btn btn-light btn-lg">
+                            <i class="fa-solid fa-circle-play"></i>Watch Video</button>
+                    </div>
+                </div>
+            </div>
+
+            
+
+                <div class="   mb-5" style=" height: 400px; width: 0px; float: left; ">
+
+
+                    <img class="mainpic " src="mainpic.png" alt="">
+
+                </div>
+           
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <section class=" py-5 " style="width: 100%;">
+        <div class="container justify-content-center ">
+            <div class="row g-4">
+
+                <div class="col-sm-12 col-lg-3 content" style="background-color:#F1F7B5 ;">
+                    <div class="d-flex  p-4  ">
+                        <span class="display-6  text-warning mb-0">
+                            <i class="fas fa-tv"></i>
+                        </span>
+                        <div class="ms-4 h6  mb-0">
+                            <div class="d-flex">
+
+                                <span class="mb-0 h5">10K</span>
+                            </div>
+                            <p class="mb-0">Online Courses</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-lg-3 content" style="background-color:#DFDFDE ;">
+                    <div class="d-flex  p-4  ">
+                        <span class="display-6   mb-0">
+                            <i class="fas fa-user-tie" style="color: #144272;"></i>
+                        </span>
+                        <div class="ms-4 h6  mb-0">
+                            <div class="d-flex">
+
+                                <span class="mb-0 h5">200+</span>
+                            </div>
+                            <p class="mb-0">Expert Tutors</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-3 content" style="background-color:#F3CCFF ;">
+                    <div class="d-flex  p-4  ">
+                        <span class="display-6   mb-0">
+                            <i class="fas fa-user-graduate" style="color:#C147E9 ;"></i>
+                        </span>
+                        <div class="ms-4 h6  mb-0">
+                            <div class="d-flex">
+
+                                <span class="mb-0 h5">10K+</span>
+                            </div>
+                            <p class="mb-0">Online Students</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-3 content" style="background-color:#C0EEE4 ;">
+                    <div class="d-flex  p-4  ">
+                        <span class="display-6  mb-0">
+                            <i class="fa-solid fa-check " style="color:#439A97 ;"></i>
+                        </span>
+                        <div class="ms-4 h6  mb-0">
+                            <div class="d-flex">
+
+                                <span class="mb-0 h5">6K+</span>
+                            </div>
+                            <p class="mb-0">Certified Courses</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+
+
+            <div class=" text-center">
+                <h2 class="fw-bold">Most Popular Courses</h2>
+                <p class="mt-3 pb-5" style="color: gray;">Choose from hundreds of courses from specialist organizations
+                </p>
+            </div>
+
+
+
+            <ul class="nav nav-buttons nav-pills  justify-content-sm-center mb-4 px-3" id="course-pills-tab">
+
+                <li class="nav-item me-2 me-sm-5">
+                    <button class="nav-link mb-2 mb-md-0 active" id="course-pills-tab-1" data-bs-toggle="pill"
+                        data-bs-target="#course-pills-tabs-1" type="button">Web Design</button>
+                </li>
+
+                <li class="nav-item me-2 me-sm-5">
+                    <button class="nav-link mb-2 mb-md-0" id="course-pills-tab-2" data-bs-toggle="pill"
+                        data-bs-target="#course-pills-tabs-2" type="button">Development</button>
+                </li>
+
+                <li class="nav-item me-2 me-sm-5">
+                    <button class="nav-link mb-2 mb-md-0" id="course-pills-tab-3" data-bs-toggle="pill"
+                        data-bs-target="#course-pills-tabs-3" type="button">Graphic Design</button>
+                </li>
+
+                <li class="nav-item me-2 me-sm-5">
+                    <button class="nav-link mb-2 mb-md-0" id="course-pills-tab-4" data-bs-toggle="pill"
+                        data-bs-target="#course-pills-tabs-4" type="button">Marketing</button>
+                </li>
+
+                <li class="nav-item me-2 me-sm-5">
+                    <button class="nav-link mb-2 mb-md-0" id="course-pills-tab-5" data-bs-toggle="pill"
+                        data-bs-target="#course-pills-tabs-5" type="button">Finance</button>
+                </li>
+            </ul>
+
+
+
+            <div class="tab-content">
+
+                <div class="tab-pane fade show active" id="course-pills-tabs-1">
+                    <div class="row g-4 ">
+
+
+                        <div class="col-sm-12 col-lg-3 ">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Sketch from A to Z: for app
+                                            designer</span></h5>
+                                    <p class="mb-2 ">Proposal indulged no do sociable he throwing settling.</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>12h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>15
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/02.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  "
+                                            style="color: #439A97; background-color: #9DF1DF;">Beginner</span>
+                                        <a class="h6 mb-0">
+                                            <i class="fas fa-heart text-danger"></i>
+                                        </a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Graphic design Masterclass</span>
+                                    </h5>
+                                    <p class="mb-2  ">Rooms oh fully taken by worse do Points afraid but may end Rooms
+                                        Points afraid but may end Rooms</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>9h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>65
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/03.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #439A97; background-color: #9DF1DF;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Create a Design System in
+                                            Figma</span>
+                                    </h5>
+                                    <p class="mb-2 ">Rooms oh fully taken by worse do. Points afraid but may end afraid
+                                        but
+                                        may end.</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>5h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>32
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/07.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  "
+                                            style="color: #439A97; background-color: #9DF1DF;">Beginner</span>
+                                        <a href="#" class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Deep Learning with
+                                            React-Native</span>
+                                    </h5>
+                                    <p class="mb-2  ">Far advanced settling say finished raillery. Offered chiefly
+                                        farther
+                                    </p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>8h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>99
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span href="#" class="badge  "
+                                            style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a href="#" class="h6 mb-0"><i class="fas fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Build Responsive Websites with
+                                            HTML</span></h5>
+                                    <p class="mb-2 ">Far advanced settling say finished raillery. Offered chiefly
+                                        farther
+                                    </p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>15h
+                                            30m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>68
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  "
+                                            style="color: #439A97; background-color: #9DF1DF;">Beginner</span>
+                                        <a href="#" class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Build Websites with CSS</span></h5>
+                                    <p class="mb-2 ">Far advanced settling say finished raillery. Offered chiefly
+                                        farther
+                                    </p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>36h
+                                            30m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>72
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/04.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="fas fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Learn Invision</span></h5>
+                                    <p class="mb-2 ">Arrived off she elderly beloved him Course regard to up he hardly.
+                                    </p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">3.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>6h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>82
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>JavaScript: Full Understanding</span>
+                                    </h5>
+                                    <p class="mb-2 ">Far advanced settling say finished raillery. Offered chiefly
+                                        farther.
+                                    </p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">5.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>35h
+                                            20m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>15
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="course-pills-tabs-2">
+                    <div class="row g-4">
+
+                        <div class="ccol-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/05.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  "
+                                            style="color: #439A97; background-color: #9DF1DF;">Beginner</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>The Complete Web Development in
+                                            python</span></h5>
+                                    <p class="mb-2 ">Mention Mr manners opinion if garrets enabled.</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i></li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>10h
+                                            0m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>26 lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/06.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #2B3467; background-color: #BAD7E9;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Angular The Complete Guider</span>
+                                    </h5>
+                                    <p class="mb-2 ">Rooms oh fully taken by worse do. Points afraid but may end.</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i></li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>9h
+                                            32m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>42 lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/07.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  "
+                                            style="color: #439A97; background-color: #9DF1DF;">Beginner</span>
+                                        <a class="h6 mb-0"><i class="fas fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Deep Learning with
+                                            React-Native</span>
+                                    </h5>
+                                    <p class="mb-2 ">Far advanced settling say finished raillery. Offered chiefly
+                                        farther</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="far fa-star text-warning "></i></li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>18h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>99 lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>JavaScript: Full Understanding</span>
+                                    </h5>
+                                    <p class="mb-2 ">Far advanced settling say finished raillery. Offered chiefly
+                                        farther</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">5.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>35h
+                                            20m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>89 lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/10.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  "
+                                            style="color: #2B3467; background-color: #BAD7E9;">Intermediate</span>
+                                        <a class="h6 mb-0"><i class="fas fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Bootstrap 5 From Scratch</span>
+                                    </h5>
+                                    <p class="mb-2 ">Far advanced settling say finished raillery. Offered chiefly
+                                        farther</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i></li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>25h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>38 lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/13.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  "
+                                            style="color: #439A97; background-color: #9DF1DF;">Beginner</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>PHP with - CMS Project</span>
+                                    </h5>
+                                    <p class="mb-2 ">Far advanced settling say finished raillery. Offered chiefly
+                                        farther</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>21h
+                                            22m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>30 lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="tab-pane fade" id="course-pills-tabs-3">
+                    <div class="row g-4">
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Sketch from A to Z: for app
+                                            designer</span></h5>
+                                    <p class="mb-2 ">Proposal indulged no do sociable he throwing settling.</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>12h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>15
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/04.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="fas fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Learn Invision</span></h5>
+                                    <p class="mb-2 ">Arrived off she elderly beloved him Course regard to up he hardly.
+                                    </p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">3.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>6h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>82
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/02.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  "
+                                            style="color: #439A97; background-color: #9DF1DF;">Beginner</span>
+                                        <a class="h6 mb-0">
+                                            <i class="fas fa-heart text-danger"></i>
+                                        </a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Graphic design Masterclass</span>
+                                    </h5>
+                                    <p class="mb-2  ">Rooms oh fully taken by worse do Points afraid but may end Rooms
+                                        Points afraid but may end Rooms</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>9h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>65
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/03.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #439A97; background-color: #9DF1DF;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Create a Design System in
+                                            Figma</span>
+                                    </h5>
+                                    <p class="mb-2 ">Rooms oh fully taken by worse do. Points afraid but may end afraid
+                                        but
+                                        may end.</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>5h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>32
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="course-pills-tabs-4">
+                    <div class="row g-4">
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/01.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  "
+                                            style="color: #439A97; background-color: #9DF1DF;">Beginner</span>
+                                        <a class="h6 mb-0"><i class="fas fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Digital Marketing Masterclass</span>
+                                    </h5>
+                                    <p class="mb-2 ">Delivered dejection necessary objection do Mr prevailed.</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>6h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>82 lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Sketch from A to Z: for app
+                                            designer</span></h5>
+                                    <p class="mb-2 ">Proposal indulged no do sociable he throwing settling.</p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">4.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>12h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>15
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="course-pills-tabs-5">
+                    <div class="row g-4">
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/04.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="fas fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>Learn Invision</span></h5>
+                                    <p class="mb-2 ">Arrived off she elderly beloved him Course regard to up he hardly.
+                                    </p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">3.5/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>6h
+                                            56m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>82
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="card shadow  h-100">
+
+                                <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" class=""
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="badge  " style="color: #C147E9; background-color: #E5B8F4;">All
+                                            level</span>
+                                        <a class="h6 mb-0"><i class="far fa-heart text-danger"></i></a>
+                                    </div>
+
+                                    <h5 class="card-title fw-bold text-dark"><span>JavaScript: Full Understanding</span>
+                                    </h5>
+                                    <p class="mb-2 ">Far advanced settling say finished raillery. Offered chiefly
+                                        farther.
+                                    </p>
+
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ms-2 h6  mb-0">5.0/5.0</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-footer pt-0 pb-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>35h
+                                            20m</span>
+                                        <span class="h6 fw-light mb-0"><i class="fas fa-table me-2"
+                                                style="color: orange;"></i>15
+                                            lectures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <section class=" container position-relative pt-0 pt-lg-5">
+
+        <div class="row align-items-center p-4 p-sm-5 mx-auto position-relative"
+            style="background-color: #3D84A8; border-radius: 20px;">
+
+            <div class="col-lg-7">
+                <h3 class="text-white fw-bold">Become an Instructor!</h3>
+                <p class="text-white mb-3 mb-lg-0">Speedily say has suitable disposal add boy. On forth
+                    doubt miles of child. Exercise joy man children rejoiced. Yet uncommonly his ten who
+                    diminution astonished.</p>
+            </div>
+
+            <div class="col-lg-5 text-lg-end">
+                <a href="#" class="btn btn-outline-warning mb-0">Start Teaching Today</a>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="row container-fluid text-center pt-5">
+
+        <h2 class="text-dark fw-bold col-lg-12 col-sm-12">Our Trending Courses</h2>
+
+        <p class="pt-3 w-50 m-auto pb-5 " style="color: gray;">
+            Check out most 🔥 courses in the market
+
+        </p>
+
+
+    </div>
+
+
+    <section class="container">
+
+
+
+        <div class="col-12">
+
+
+            <div class="flickity-viewport-visible"
+                data-flickity='{"cellAlign": "left", "contain": true, "imagesLoaded": true, "pageDots": false}'>
+
+
+
+                <div class="w-100 px-2" style="max-width: 400px;">
+
+                    <!-- Card 1 -->
+                    <div class="card ">
+                        <div class="img-wrapper"><img
+                                src="https://eduport.webestica.com/assets/images/courses/4by3/15.jpg"
+                                class="d-block w-100" alt="..."> </div>
+                        <div class="card-body pb-0">
+
+                            <div class="d-flex justify-content-between mb-3">
+                                <span class=" ">
+                                    <span class="badge fw-light "
+                                        style="color: blue; background-color: rgb(160, 230, 253);">Development</span>
+                                    <span class="badge " style="color: white; background-color: black;">All level</span>
+                                </span>
+                                <a class="h6 fw-light mb-0 "><i class="far fa-bookmark text-dark"></i></a>
+                            </div>
+
+                            <h5 class="card-title"><span class="fw-bold">Angular - The Complete Guide (2021
+                                    Edition)</span></h5>
+
+                            <div class="d-flex justify-content-between mb-2">
+                                <div class=" gap-2">
+                                    <p class="text-warning m-0">4.0<i class="fas fa-star text-warning ms-1"></i></p>
+                                    <span class="small">(3500)</span>
+                                </div>
+                                <div class=" gap-2">
+                                    <p class="h6 fw-light mb-0 m-0">4500</p>
+                                    <span class="small">(Student)</span>
+                                </div>
+                            </div>
+
+                            <div class=" gap-3">
+                                <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>12h
+                                    45m</span>
+                                <span class="h6 fw-light mb-0 ps-3"><i style="color: orange;"
+                                        class="fas fa-table  me-2"></i>62 lectures</span>
+                            </div>
+                        </div>
+
+                        <div class="card-footer pt-0 bg-transparent">
+                            <hr>
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar avatar-sm">
+                                        <img class="avatar-img rounded-1" style="height: 40px;"
+                                            src="https://eduport.webestica.com/assets/images/avatar/04.jpg"
+                                            alt="avatar">
+                                    </div>
+                                    <p class="mb-0 ms-2"><span class="h6 fw-bold mb-0 text-dark">Billy
+                                            Vasquez</span></p>
+                                </div>
+
+                                <div>
+                                    <h4 class="text-success mb-0 item-show">$255</h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="w-100 px-2" style="max-width: 400px;">
+
+                    <!-- Card 2 -->
+
+
+                    <div class="card ">
+                        <div class="img-wrapper"><img
+                                src="https://eduport.webestica.com/assets/images/courses/4by3/14.jpg"
+                                class="d-block w-100" alt="..."> </div>
+                        <div class="card-body pb-0">
+
+                            <div class="d-flex justify-content-between mb-3">
+                                <span class=" ">
+                                    <span class="badge fw-light "
+                                        style="color: blue; background-color: rgb(160, 230, 253);">Design</span>
+                                    <span class="badge " style="color: white; background-color: black;">Beginner</span>
+                                </span>
+                                <a class="h6 fw-light mb-0 "><i class="far fa-bookmark text-dark"></i></a>
+                            </div>
+
+                            <h5 class="card-title"><span class="fw-bold">The complete Digital Marketing Course - 8
+                                    Course in 1</span></h5>
+
+                            <div class="d-flex justify-content-between mb-2">
+                                <div class=" gap-2">
+                                    <p class="text-warning m-0">4.5<i class="fas fa-star text-warning ms-1"></i></p>
+                                    <span class="small">(6500)</span>
+                                </div>
+                                <div class=" gap-2">
+                                    <p class="h6 fw-light mb-0 m-0">6500</p>
+                                    <span class="small">(Student)</span>
+                                </div>
+                            </div>
+
+                            <div class=" gap-3">
+                                <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>6h
+                                    56m</span>
+                                <span class="h6 fw-light mb-0 ps-3"><i style="color: orange;"
+                                        class="fas fa-table  me-2"></i>82 lectures</span>
+                            </div>
+                        </div>
+
+                        <div class="card-footer pt-0 bg-transparent">
+                            <hr>
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar avatar-sm">
+                                        <img class="avatar-img rounded-1" style="height: 40px;"
+                                            src="https://eduport.webestica.com/assets/images/avatar/10.jpg"
+                                            alt="avatar">
+                                    </div>
+                                    <p class="mb-0 ms-2"><span class="h6 fw-bold mb-0 text-dark">Larry Lawson</span></p>
+                                </div>
+
+                                <div>
+                                    <h4 class="text-success mb-0 item-show">Free</h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="w-100 px-2" style="max-width: 400px;">
+
+                    <!-- Card 3 -->
+                    <div class="card ">
+                        <div class="img-wrapper"><img
+                                src="https://eduport.webestica.com/assets/images/courses/4by3/17.jpg"
+                                class="d-block w-100" alt="..."> </div>
+                        <div class="card-body pb-0">
+
+                            <div class="d-flex justify-content-between mb-3">
+                                <span class=" ">
+                                    <span class="badge fw-light "
+                                        style="color: blue; background-color: rgb(160, 230, 253);">Design</span>
+                                    <span class="badge " style="color: white; background-color: black;">Beginner</span>
+                                </span>
+                                <a class="h6 fw-light mb-0 "><i class="far fa-bookmark text-dark"></i></a>
+                            </div>
+
+                            <h5 class="card-title"><span class="fw-bold">Time Management Mastery: Do More, Stress
+                                    Less</span></h5>
+
+                            <div class="d-flex justify-content-between mb-2">
+                                <div class=" gap-2">
+                                    <p class="text-warning m-0">4.5<i class="fas fa-star text-warning ms-1"></i></p>
+                                    <span class="small">(2000)</span>
+                                </div>
+                                <div class=" gap-2">
+                                    <p class="h6 fw-light mb-0 m-0">8000</p>
+                                    <span class="small">(Student)</span>
+                                </div>
+                            </div>
+
+                            <div class=" gap-3">
+                                <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>24h
+                                    56m</span>
+                                <span class="h6 fw-light mb-0 ps-3"><i style="color: orange;"
+                                        class="fas fa-table  me-2"></i>55 lectures</span>
+                            </div>
+                        </div>
+
+                        <div class="card-footer pt-0 bg-transparent">
+                            <hr>
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar avatar-sm">
+                                        <img class="avatar-img rounded-1" style="height: 40px;"
+                                            src="https://eduport.webestica.com/assets/images/avatar/09.jpg"
+                                            alt="avatar">
+                                    </div>
+                                    <p class="mb-0 ms-2"><span class="h6 fw-bold mb-0 text-dark">Lori Stevens</span></p>
+                                </div>
+
+                                <div>
+                                    <h4 class="text-success mb-0 item-show">$500</h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+                <div class="w-100 px-2" style="max-width: 400px;">
+
+                    <!-- Card 4-->
+                    <div class="card ">
+                        <div class="img-wrapper"><img
+                                src="https://eduport.webestica.com/assets/images/courses/4by3/16.jpg"
+                                class="d-block w-100" alt="..."> </div>
+                        <div class="card-body pb-0">
+
+                            <div class="d-flex justify-content-between mb-3">
+                                <span class=" ">
+                                    <span class="badge fw-light "
+                                        style="color: blue; background-color: rgb(160, 230, 253);">Design</span>
+                                    <span class="badge " style="color: white; background-color: black;">Beginner</span>
+                                </span>
+                                <a class="h6 fw-light mb-0 "><i class="far fa-bookmark text-dark"></i></a>
+                            </div>
+
+                            <h5 class="card-title"><span class="fw-bold">Time Management Mastery: Do More, Stress
+                                    Less</span></h5>
+
+                            <div class="d-flex justify-content-between mb-2">
+                                <div class=" gap-2">
+                                    <p class="text-warning m-0">4.0<i class="fas fa-star text-warning ms-1"></i></p>
+                                    <span class="small">(2000)</span>
+                                </div>
+                                <div class=" gap-2">
+                                    <p class="h6 fw-light mb-0 m-0">1200</p>
+                                    <span class="small">(Student)</span>
+                                </div>
+                            </div>
+
+                            <div class=" gap-3">
+                                <span class="h6 fw-light mb-0"><i class="far fa-clock text-danger me-2"></i>9h
+                                    56m</span>
+                                <span class="h6 fw-light mb-0 ps-3"><i style="color: orange;"
+                                        class="fas fa-table  me-2"></i>21 lectures</span>
+                            </div>
+                        </div>
+
+                        <div class="card-footer pt-0 bg-transparent">
+                            <hr>
+
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar avatar-sm">
+                                        <img class="avatar-img rounded-1" style="height: 40px;"
+                                            src="https://eduport.webestica.com/assets/images/avatar/01.jpg"
+                                            alt="avatar">
+                                    </div>
+                                    <p class="mb-0 ms-2"><span class="h6 fw-bold mb-0 text-dark">Frances Guerrero</span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h4 class="text-success mb-0 item-show">$200</h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="row g-4  align-items-center">
+                <div class="col-lg-7 ">
+                    <div class="row  mt-5">
+
+                        <div class="col-md-7 position-relative mb-0 mt-0 mt-md-5">
+
+
+
+                            <div class="bg-body shadow text-center p-4 rounded-3 position-relative mb-5 mb-md-0">
+
+                                <div class="avatar avatar-xl mb-3">
+                                    <img class="avatar-img rounded-circle"
+                                        src="https://eduport.webestica.com/assets/images/avatar/01.jpg" alt="avatar"
+                                        style="height: 80px;">
+                                </div>
+
+                                <div>
+                                    <p style="color: gray;">
+                                        <span class="me-1 small"><i class="fas fa-quote-left"></i></span>
+                                        Moonlight newspaper up its enjoyment agreeable depending. Timed voice share led
+                                        him to widen noisy young. At weddings believed laughing
+                                        <span class="ms-1 small"><i class="fas fa-quote-right"></i></span>
+                                    </p>
+                                </div>
+
+                                <ul class="list-inline mb-2">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i
+                                            class="fas fa-star-half-alt text-warning"></i></li>
+                                </ul>
+
+                                <h6 class="mb-0 fw-bold">Carolyn Ortiz</h6>
+                            </div>
+
+
+
+                        </div>
+
+
+                        <div class="col d-none d-md-block">
+                            <div class=" shadow p-4 rounded-3 d-inline-block position-relative">
+
+
+
+                                <h6 class="mb-3 fw-bold">100+ Verified Mentors</h6>
+
+                                <div class="d-flex align-items-center mb-3">
+
+                                    <div class="avatar avatar-sm">
+                                        <img class="avatar-img rounded-1"
+                                            src="https://eduport.webestica.com/assets/images/avatar/09.jpg" alt="avatar"
+                                            style="height: 50px;">
+                                    </div>
+
+                                    <div class="ms-2">
+                                        <h6 class="mb-0 fw-bold">Lori Stevens</h6>
+                                        <p class="mb-0 small" style="color: gray;">Tutor of physic</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="d-flex align-items-center mb-3">
+
+                                    <div class="avatar avatar-sm">
+                                        <img class="avatar-img rounded-1"
+                                            src="https://eduport.webestica.com/assets/images/avatar/04.jpg" alt="avatar"
+                                            style="height: 50px;">
+                                    </div>
+
+                                    <div class="ms-2">
+                                        <h6 class="mb-0 fw-bold">Billy Vasquez</h6>
+                                        <p class="mb-0 small" style="color: gray;">Tutor of chemistry</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="d-flex align-items-center">
+
+                                    <div class="avatar avatar-sm">
+                                        <img class="avatar-img rounded-1"
+                                            src="https://eduport.webestica.com/assets/images/avatar/02.jpg" alt="avatar"
+                                            style="height: 50px;">
+                                    </div>
+
+                                    <div class="ms-2">
+                                        <h6 class="mb-0 fw-bold">Larry Lawson</h6>
+                                        <p class="mb-0 small" style="color: gray;">Tutor of technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="row mt-5 mt-xl-0">
+
+                            <div class="col-7 mt-0 mt-xl-5 text-end position-relative  d-none d-md-block">
+
+
+
+                                <div class="p-3 bg-primary d-inline-block  shadow-lg text-center"
+                                    style="background:url(https://eduport.webestica.com/assets/images/pattern/02.png) no-repeat center center; background-size:cover; border-radius: 15px;">
+
+                                    <h5 class="text-white mb-0">4.5/5.0</h5>
+
+                                    <ul class="list-inline mb-2">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i></li>
+                                    </ul>
+                                    <p class="text-white mb-0">Based on 3265 ratings</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-5 mt-n6 mb-0 mb-md-5">
+                                <div class="bg-body shadow text-center p-4 rounded-3">
+
+                                    <div class="avatar avatar-xl mb-3">
+                                        <img class="avatar-img rounded-circle" style="height: 80px;"
+                                            src="https://eduport.webestica.com/assets/images/avatar/03.jpg"
+                                            alt="avatar">
+                                    </div>
+
+                                    <div>
+                                        <p style="color: gray;">
+                                            <span class="me-1 small"><i class="fas fa-quote-left"></i></span>
+                                            At weddings believed laughing although the Moonlight newspaper up its
+                                            enjoyment agreeable depending.
+                                            <span class="ms-1 small"><i class="fas fa-quote-right"></i></span>
+                                        </p>
+                                    </div>
+
+                                    <ul class="list-inline mb-2">
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item me-0 small"><i
+                                                class="fas fa-star-half-alt text-warning"></i></li>
+                                    </ul>
+
+                                    <h6 class="mb-0 fw-bold">Dennis Barrett</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="col-xl-5  text-center text-xl-start">
+
+                    <h2 class="fw-bold" style="color: darkblue ;">Some valuable feedback from our students</h2>
+                    <p style="color: grey;">Supposing so be resolving breakfast am or perfectly. It drew a hill from me.
+                        Valley by oh twenty direct me so. Departure defective arranging rapturous did believe him all
+                        had supported. Family months lasted simple set nature vulgar him. Picture for attempt joy
+                        excited ten carried manners talking how.</p>
+                    <a href="#" class="btn btn-primary mb-0">View Reviews</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="pt-5">
+        <div class="container">
+
+            <div class="row g-4">
+
+
+                <div class="col-lg-3">
+
+                    <a class="me-0">
+                        <img style="width: 50%;" src="https://eduport.webestica.com/assets/images/logo.svg" alt="logo">
+
+                    </a>
+                    <p class="my-3" style="color: gray;">Eduport education theme, built specifically for the education
+                        centers which is dedicated to teaching and involve learners.</p>
+
+                    <ul class="list-inline mb-0 mt-3">
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2" href="#"><i
+                                    class="fa-brands fa-facebook-f"></i></a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 " href="#"><i
+                                    class="fa-brands fa-instagram"></i></a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 " href="#"><i
+                                    class="fa-brands fa-twitter"></i></a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 " href="#"><i
+                                    class="fa-brands fa-linkedin-in"></i></a> </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row g-4">
+
+                        <div class="col-lg-4 col-md-4">
+                            <h5 class="mb-2  ms-3">Company</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item abc"><a class="nav-link" href="#">About us</a></li>
+                                <li class="nav-item abc"><a class="nav-link" href="#">Contact us</a></li>
+                                <li class="nav-item abc"><a class="nav-link" href="#">News and Blogs</a></li>
+                                <li class="nav-item abc"><a class="nav-link" href="#">Library</a></li>
+                                <li class="nav-item abc"><a class="nav-link" href="#">Career</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-4">
+                            <h5 class="mb-2  ms-3">Community</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item abc"><a class="nav-link" href="#">Documentation</a></li>
+                                <li class="nav-item abc"><a class="nav-link" href="#">Faq</a></li>
+                                <li class="nav-item abc"><a class="nav-link" href="#">Forum</a></li>
+                                <li class="nav-item abc"><a class="nav-link" href="#">Sitemap</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-4">
+                            <h5 class="mb-2  ms-3">Teaching</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item abc"><a class="nav-link" href="#">Become a teacher</a></li>
+                                <li class="nav-item abc"><a class="nav-link" href="#">How to guide</a></li>
+                                <li class="nav-item abc"><a class="nav-link" href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <h5 class="mb-2 mb-md-4 ">Contact</h5>
+
+                    <p class="mb-2">
+                        Toll free:<span class="h6 fw-light ms-2">+1234 568 963</span>
+                        <span class="d-block small">(9:AM to 8:PM IST)</span>
+                    </p>
+
+                    <p class="mb-0">Email:<span class="h6 fw-light ms-2">example@gmail.com</span></p>
+
+                    <div class="row g-2 mt-2">
+
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-6">
+                            <a href="#"> <img src="https://eduport.webestica.com/assets/images/client/google-play.svg"
+                                    alt=""> </a>
+                        </div>
+
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-6">
+                            <a href="#"> <img src="https://eduport.webestica.com/assets/images/client/app-store.svg"
+                                    alt=""> </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <hr class="mt-4 mb-0">
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

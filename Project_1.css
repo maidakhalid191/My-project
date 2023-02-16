@@ -1,0 +1,40 @@
+
+.logo{
+
+    width: 150px;
+}
+
+.category::after {
+    content: none;
+    
+}
+
+
+.content{
+
+   width: 300px;
+   border-radius: 20px;
+   margin-right: 20px;
+   
+
+    
+}
+
+.nav-buttons{
+    background-color: rgba(6, 106, 201, 0.1);
+    padding: 0.625rem 0;
+    border-radius: 0.625rem;
+}
+.card-title :hover{
+    color: rgb(47, 95, 216);
+}
+.nav-link{
+    color: gray;
+}
+
+
+
+
+
+
+  
